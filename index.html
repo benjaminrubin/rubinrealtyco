@@ -17,9 +17,9 @@
 <body>
 
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
 		<a class="navbar-brand" href="#">Rubin Realty Co.</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -43,7 +43,12 @@
 
 	<!-- Header Image -->
 	<div id="header">
-		<div id="header-image"></div>
+
+		<div id="header-image">
+			<div class="vertical-center">
+				<h1 class="cover-heading mx-auto text-light display-1 font-weight-bold p-4">Never settle for less.</h1>
+			</div>
+		</div>
 	</div>
 
 
@@ -64,7 +69,7 @@
 						guide you through the complexities of buying or selling your residential or
 						commercial property.
 					</p>
-					<p><a class="btn btn-primary" href="#footer" role="button">Contact Now</a></p>
+					<p><a class="btn btn-info" href="#footer" role="button">Contact now for a free consultation!</a></p>
 				</div>
 			</div>
 		</div>
@@ -507,20 +512,20 @@
 	<hr id="contact">
 	<!-- Contact Information -->
 
-	<section class="container my-5"> 
+	<section class="container my-5">
 		<div class="container-fluid bg-grey">
-			<h3 class="text-center">Contact</h3>
-			<div class="row">
+			<h2 class="text-center text-info">Contact now for a free consultation!</h2>
+			<div class="row mt-5">
 				<div class="col-md-5">
-					<h4>Contact us now for a free consultation</h4>
-					<p><span class="glyphicon glyphicon-map-marker"></span> 
-						Address: <br/>
-						6355 Topanga Canyon Blvd.<br/>
-						Suite 215<br/>
+					<!-- <h4 class="text-info">Contact now for a free consultation!</h4> -->
+					<p><span class="glyphicon glyphicon-map-marker"></span>
+						<span class="font-weight-bold"> Address:</span> <br />
+						6355 Topanga Canyon Blvd.<br />
+						Suite 215<br />
 						Woodland Hills, CA 91367
-						</p>
-					<p><span class="glyphicon glyphicon-phone"></span>Tel: +1 (818) 439 7000</p>
-					<p><span class="glyphicon glyphicon-envelope"></span> rubinrealtyco@gmail.com</p>
+					</p>
+					<p><span class="glyphicon glyphicon-phone"></span> <span class="font-weight-bold">Tel:</span> <a class="text-info" href="tel:+18184397000"> +1 (818) 439 7000</a></p>
+					<p><span class="glyphicon glyphicon-envelope"></span> <span class="font-weight-bold">Email:</span> <a class="text-info" href="mailto:rubinrealtyco@gmail.com" target="_blank"> rubinrealtyco@gmail.com</a></p>
 				</div>
 				<div class="col-md-7">
 					<div class="row">
@@ -532,11 +537,16 @@
 								required>
 						</div>
 					</div>
-					<textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+					<div class="row">
+					<div class="col-md-12 form-group">
+						<input class="form-control" id="subject" name="subject" placeholder="Subject" type="text" required>
+					</div>
+				</div>
+					<textarea class="form-control" id="message" name="message" placeholder="Message"
 						rows="5"></textarea><br>
 					<div class="row">
 						<div class="col-md-12 form-group">
-							<button class="btn btn-primary pull-right" type="submit">Send</button>
+							<button class="btn btn-info pull-right" type="submit">Submit Form</button>
 						</div>
 					</div>
 				</div>
