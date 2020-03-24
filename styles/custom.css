@@ -30,7 +30,7 @@
   }
 
 #header-text {
-    position: relative;
+    font-size: 4rem;
 }
 
 #avatar {
@@ -46,6 +46,10 @@
     #header {
         height: 800px;
     }
+    #header-text {
+        font-size: 7.5rem;
+    }
+
 
   }
 
