@@ -19,3 +19,12 @@
     width: 100%;
     position: absolute;
 }
+
+#avatar {
+    background-image: url("../images/michael_sharper-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }

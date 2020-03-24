@@ -29,7 +29,7 @@
 					<a class="nav-link" href="#about-us">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="">Our Philosophy</a>
+					<a class="nav-link" href="#philosophy">Our Philosophy</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Contact</a>
@@ -46,13 +46,15 @@
 		<div id="header-image"></div>
 	</div>
 
+
+
 	<!-- End of Carousel -->
 	<main role="main" id="about-us">
-		<div class="container  mt-4">
+		<div class="container mt-5">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<!-- INSERT MICHAEL'S IMAGE HERE -->
-					<h1>Michael P. Rubin</h1>
+					<div id="avatar" class="mx-auto my-3"></div>
+					<h1 class="display-4">Michael P. Rubin</h1>
 					<p>Mike Rubin was born in Chicago. He was first licensed as an attorney and a real estate
 						broker in California in 1979. Since then, he has practiced law in the areas of real
 						estate and business litigation. He has litigated, negotiated and resolved thousands
@@ -62,18 +64,18 @@
 						guide you through the complexities of buying or selling your residential or
 						commercial property.
 					</p>
-					<p><a class="btn btn-secondary" href="#footer" role="button">Contact Now »</a></p>
+					<p><a class="btn btn-primary" href="#footer" role="button">Contact Now</a></p>
 				</div>
 			</div>
 		</div>
 	</main>
 
-	<hr>
+	<hr id="philosophy">
 	<!-- Philosophy -->
-	<section class="my-5 container marketing">
+	<section class="my-5 container jumbotron">
 
 
-		<h2 class="featurette-heading text-center">Our Philosophy</h2>
+		<h2 class=" text-center">Our Philosophy</h2>
 		<p>
 			When you buy or sell real estate, especially a home, it is likely the biggest investment of your life. In
 			going through the buying or selling process, the first step is to separate fact from fiction, and find an
@@ -502,8 +504,46 @@
 	</section>
 
 
+	<hr id="contact">
 	<!-- Contact Information -->
 
+	<section class="container my-5"> 
+		<div class="container-fluid bg-grey">
+			<h3 class="text-center">Contact</h3>
+			<div class="row">
+				<div class="col-md-5">
+					<h4>Contact us now for a free consultation</h4>
+					<p><span class="glyphicon glyphicon-map-marker"></span> 
+						Address: <br/>
+						6355 Topanga Canyon Blvd.<br/>
+						Suite 215<br/>
+						Woodland Hills, CA 91367
+						</p>
+					<p><span class="glyphicon glyphicon-phone"></span>Tel: +1 (818) 439 7000</p>
+					<p><span class="glyphicon glyphicon-envelope"></span> rubinrealtyco@gmail.com</p>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="email" name="email" placeholder="Email" type="email"
+								required>
+						</div>
+					</div>
+					<textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+						rows="5"></textarea><br>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button class="btn btn-primary pull-right" type="submit">Send</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 	<!-- Footer -->
 	<hr>
