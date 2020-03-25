@@ -545,43 +545,86 @@
 						<a class="text-info" href="mailto:rubinrealtyco@gmail.com" target="_blank">
 							rubinrealtyco@gmail.com</a></p>
 				</div>
+
+
+				<!-- Contact Form -->
+
+
 				<div class="col-md-7">
-					<form name="contactform" id="contactform" enctype="text/plain" action="" target="hidden_iframe" onsubmit="submitted=true;">
-						<div class="row">
+
+					<script type="text/javascript">var submitted=false;</script>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {}"></iframe>
+
+					<form class="needs-validation" novalidate name="contactform" id="contactform" enctype="text/plain"
+						action="https://docs.google.com/forms/d/e/1FAIpQLSdOswB-LBtLx6ABO64bADYIzPmYeUthEGgVqL2b_uA77PBnYQ/formResponse?"  target="hidden_iframe" >
+						<div class="form-row">
+
+							
+
+							
+
+							<!-- Name Input -->
 							<div class="col-md-6 form-group">
-								<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-							</div>
-							<div class="col-md-6 form-group">
-								<input class="form-control" id="email" name="email" placeholder="Email" type="email"
+								<input class="form-control" id="entry.1905238528" name="entry.1905238528" placeholder="Name" type="text"
 									required>
+								<div class="invalid-feedback">
+									Name required
+								</div>
+							</div>
+
+
+							<!-- Email Input -->
+							<div class="col-md-6 form-group">
+								<input class="form-control" id="entry.451496120" name="entry.451496120" placeholder="Email" type="email"
+									required>
+								<div class="invalid-feedback">
+									Email required such as example@gmail.com
+								</div>
 							</div>
 						</div>
-						<div class="row">
+
+
+
+						<!-- Phone Number Input -->
+						<div class="form-row">
 							<div class="col-md-12 form-group">
-								<input class="form-control" id="phone-number" name="phone-number" placeholder="Phone Number"
-									type="text" required>
+								<input class="form-control" id="entry.145572415" name="entry.145572415"
+									placeholder="Phone Number" type="number" required>
+								<div class="invalid-feedback">
+									Phone number required
+								</div>
 							</div>
 						</div>
-						<textarea class="form-control" id="message" name="message" placeholder="Message"
-							rows="5"></textarea><br>
+
+
+						<!-- Message Input -->
+						<div class="form-group">
+							<textarea class="form-control" id="entry.1648895408" name="entry.1648895408" placeholder="Message" rows="5" required></textarea>
+
+							
+							<div class="invalid-feedback">
+								Message required
+							</div>
+						</div>
+
 						<div class="row">
 							<div class="col-md-12 form-group text-center">
-								<button class="btn btn-info pull-right" type="submit">Submit Form</button>
+								<button class="btn btn-info pull-right" type="submit" id="submit-button">Submit Form</button>
 							</div>
 						</div>
 					</form>
+
 					<!-- Form Messages -->
 					<div>
-						<div class="text-center text-danger">
-							Field can't be empty
-						</div>
-
 						<!-- Success Message -->
-						<div class="text-center text-secondary">
+						<div class="text-center text-success" style="display: none;" id="form-message">
 							Your response has been sent!
 						</div>
 					</div>
+					
 				</div>
+
+				<!-- End of Contact Form -->
 
 			</div>
 		</div>
@@ -593,16 +636,14 @@
 	<footer class="container" id="footer">
 		<div class="my-5">
 			<p class="float-right"><a href="#">Back to top</a></p>
-			<p>© 2020 Rubin Realty Co.<br/> <a href="https://www.branja.co" target="_blank">Designed by Branja</a></p>
+			<p>© 2020 Rubin Realty Co.<br /> <a href="https://www.branja.co" target="_blank">Designed by Branja</a></p>
 		</div>
 	</footer>
 
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
