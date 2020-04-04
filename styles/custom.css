@@ -12,7 +12,7 @@
 
     overflow: hidden;
 
-    background-image: url("../images/losangeles_2-min.jpg");
+    background-image: url("../images/los_angeles.webp");
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-position: center; */
@@ -34,7 +34,7 @@
 }
 
 #avatar {
-    background-image: url("../images/michael_sharper-2-min.jpg");
+    background-image: url("../images/michael_rubin.webp");
     background-size: cover;
     background-position: center;
     width: 300px;
