@@ -1,30 +1,37 @@
-
-
 #header {
     width: 100%;
     height: 50vh;
     
+    text-align: center;
+
     overflow: hidden;
     position: relative;
 }
 
+#header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 #header-image {
-
-    overflow: hidden;
-
-    background-image: url("../images/los_angeles.webp");
+    /* background-image: url("../images/los_angeles.webp"); */
     /* background-attachment: fixed; */
-    background-size: cover;
+    /* background-size: cover; */
     /* background-position: center; */
-    background-repeat: no-repeat;
-    background-position: 60% 40%;
-    height: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-position: 60% 40%; */
+    /* height: 100%; */
     width: 100%;
-    position: absolute;
+    height: 50vh;
+    position: relative;
+    object-fit: cover;
+    /* top: -200px; */
 }
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  
     display: flex;
     align-items: center;
   }
@@ -56,6 +63,10 @@
     }
     #header-text {
         font-size: 7.5rem;
+    }
+    #header-image {
+        height: 800px;
+        /* object-position: 50% -120px; */
     }
 
 
